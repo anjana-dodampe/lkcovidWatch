@@ -1,0 +1,111 @@
+header {
+  background-color: rgb(8, 136, 221);
+  display: block;
+  padding: 1%;
+}
+body {
+  background-color: #ffffff;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+}
+
+.stat {
+  margin: 5px;
+  background-color: #c94c4c;
+  font-size: 25px;
+  flex-grow: 0.5;
+}
+
+#box1 {
+  border: solid black 5px;
+  border-radius: 0px 20px 0px 20px;
+  background-color: #f1c40f;
+}
+
+#box2 {
+  border: solid black 5px;
+  border-radius: 0px 20px 0px 20px;
+  background-color: #2e86c1;
+}
+
+#box3 {
+  border: solid black 5px;
+  border-radius: 0px 20px 0px 20px;
+  background-color: #aa5eca;
+}
+
+#box4 {
+  border: solid black 5px;
+  border-radius: 0px 20px 0px 20px;
+  background-color: #28b463;
+}
+
+h5,
+h4,
+h6 {
+  text-align: center;
+}
+#death {
+  margin: 25px;
+  background-color: #f9ebea;
+  flex-grow: 0.1;
+
+  font-family: sans-serif;
+  color: #fb2d01;
+  border-left: 6px solid red;
+  border-right: 6px solid red;
+}
+
+div {
+  font-size: larger;
+}
+
+canvas {
+  background-color: #4fa6b63f;
+}
+
+#chartBlock {
+  background-color: #f7f898;
+}
+
+.info {
+  color: #ffffff;
+  font-size: xx-large;
+}
+
+#lblTotalDeaths {
+  color: #fb2d01;
+}
+
+footer {
+  display: flexbox;
+  background-color: rgb(8, 136, 221);
+  color: #ffffff;
+  height: ;
+
+  padding: 0.1%;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #2c2b2b;
+}
+
+i {
+  margin: 4px 4px 4px 4px;
+  background-color: white;
+  padding: 2px 2px 2px 2px;
+}
+
+h6 {
+  font-size: 20px;
+}

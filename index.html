@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Covid-19 Watch</title>
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" /> -->
+    <link rel="stylesheet" href="css/covidDB.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"
+      integrity="sha256-R4pqcOYV8lt7snxMQO/HSbVCFRPMdrhAFMH+vr9giYI="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/covidWebApp.js"></script>
+    <script
+      src="https://kit.fontawesome.com/c0d2632e91.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="w3-container w3-blue">
+      <h1>Let's heal Sri Lanka - Covid-19 Watch - Together We Can</h1>
+    </header>
+
+    <div class="w3-container">
+      <h4>Last Updated: <span id="lblLastUpdated"> </span></h4>
+
+      <div class="flex-container">
+        <div id="box1" class="stat">
+          <h5>New Cases: <span class="info" id="lblNewCases"></span></h5>
+          <h6>Confirmed Covid-19 cases reported during last 24 hours</h6>
+        </div>
+
+        <div id="box2" class="stat">
+          <h5>Active Cases: <span class="info" id="lblActiveCases"></span></h5>
+          <h6>Currently on treatment at the Hospitals</h6>
+        </div>
+
+        <div id="box3" class="stat">
+          <h5>Total Cases: <span class="info" id="lblTotalCases"></span></h5>
+          <h6>Cumulative count of confirmed COVID-19 cases</h6>
+        </div>
+
+        <div id="box4" class="stat">
+          <h5>
+            Total Recovered: <span class="info" id="lblTotalRecovered"></span>
+          </h5>
+          <h6>Total COVID-19 cases recovered and discharged</h6>
+        </div>
+      </div>
+
+      <div class="flex-container">
+        <div id="death">
+          <h5>Total Deaths: <span class="info" id="lblTotalDeaths"></span></h5>
+        </div>
+      </div>
+
+      <div id="chartBlock" class="w3-panel w3-pale-blue">
+        <h4 style="margin-top: 40px;">PCR Testing History</h4>
+        <canvas id="chartPcr"></canvas>
+      </div>
+    </div>
+
+    <footer class="w3-container w3-blue">
+      <h4>
+        Source:
+        <a href="https://www.hpb.health.gov.lk/en/api-documentation">
+          www.hpb.health.gov.lk</a
+        >
+        <br />
+        <h5>AnjanaDodampe2020&copy</h5>
+      </h4>
+
+      <div class="icons">
+        <a href="https://twitter.com/AiSER_HD">
+          <i class="fab fa-twitter fa-2x"></i>
+        </a>
+        <a href="https://www.facebook.com/IMahmdodampe">
+          <i class="fab fa-facebook fa-2x"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/anjanadodampe">
+          <i class="fab fa-linkedin fa-2x"></i>
+        </a>
+        <a href="https://github.com/anjana-dodampe">
+          <i class="fab fa-github fa-2x"></i>
+          <a href="https://aisertiveinception.blogspot.com/">
+            <i class="fab fa-blogger fa-2x"></i>
+        </a>
+        <a href="https://www.youtube.com/channel/UC11485rqP0vNOaEQYb-u-Gw">
+          <i class="fab fa-youtube fa-2x"></i>
+      </div>
+    </footer>
+  </body>
+</html>
